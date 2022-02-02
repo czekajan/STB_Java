@@ -15,6 +15,7 @@ public class DemoApp {
         User user2 = new User("Piotr", "Testowy", "piotrt@javademo.pl", 9, true);
         user2.introduceYourself();
         System.out.println(user2.isAdult());
+        */
 
 
         /*
