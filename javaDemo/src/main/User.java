@@ -16,6 +16,28 @@ public class User {
     private int age;
     private Boolean likeIceCream;
 
+    // utworzenie getterow do DemoAppStreams
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public Boolean getLikeIceCream() {
+        return likeIceCream;
+    }
+
+
     // 2. Konstruktor (konstruktor domysliny, i taki ktory mozemy nadpisac
     // jezeli nie utworzymy zadnego konstruktora, to java utowrzy konstruktor domyslny! czyli pusty
     // jesli konstruktor zostanie utworzony, to nigdy nie zadziala konstruktos domyslny
@@ -62,5 +84,17 @@ public class User {
 //    void metodaZParametrem(String parametr, Boolean parametr2){
 //        System.out.println("Parametr metody: " + parametr + "parametr 2 :" + parametr2);
 //    }
+
+    // Generate/toString zeby wyswietlic urzytkownikow do DemoAppStreams
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", age=" + age +
+                ", likeIceCream=" + likeIceCream +
+                '}';
+    }
 
 }
