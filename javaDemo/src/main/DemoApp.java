@@ -3,8 +3,18 @@ package main;
 public class DemoApp {
     public static void main(String[] args) {
 
+        // LESSSSSSSSSSON Konstruktor i metody
         User user1 = new User("Piotr", "Testowy", "piotrt@javademo.pl", 9, false);
-        System.out.println("User name: " + user1.firstName + " " + user1.lastName + " email: " + user1.email);
+        //System.out.println("User name: " + user1.firstName + " " + user1.lastName + " email: " + user1.email);
+        user1.introduceYourself();
+        Boolean adult = user1.isAdult();
+        System.out.println(adult);
+        user1.metodaZParametrem("jeden");
+        user1.metodaZParametrami("jeden", "dwa");
+
+        User user2 = new User("Piotr", "Testowy", "piotrt@javademo.pl", 9, true);
+        user2.introduceYourself();
+        System.out.println(user2.isAdult());
 
 
         /*

@@ -25,5 +25,36 @@ public class User {
 
     }
 
+    // 3. Metody - co dany obiekt bedzie mogl zrobic
+
+    public void introduceYourself(){
+        System.out.println("Hi! My name is " + firstName + " " + lastName);
+    }
+
+    Boolean isAdult(){
+        if (age > 18){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public void metodaZParametrem(String parametr){
+        System.out.println("Parametr metody: " + parametr);
+    }
+
+    public void metodaZParametrami(String parametr, String parametr2){
+        System.out.println("Parametr metody: " + parametr + " parametr 2 " + parametr2);
+    }
+
+
+//    // przeciazenie metody - dwie takie same metody, z taka sama nazwa, ale musza sie roznic parametrami
+//    void metodaZParametrem(String parametr){
+//        System.out.println("Parametr metody: " + parametr);
+//    }
+//
+//    void metodaZParametrem(String parametr, Boolean parametr2){
+//        System.out.println("Parametr metody: " + parametr + "parametr 2 :" + parametr2);
+//    }
 
 }
