@@ -3,6 +3,18 @@ package main;
 public class DemoApp {
     public static void main(String[] args) {
 
+        // LESSSSSSSSSSON DZIEDZICZENIE
+        CarFamily familyCar = new CarFamily("Opel", "red", "1.4", "Car Family");
+        familyCar.describeCar();
+
+
+        /*
+        // LESSSSSSSSSSON Enkapsulacja, Gettery, Settery
+        Car bmw = new Car("bmw z1", "green", "3,5");
+        System.out.println(bmw.getName());
+        */
+
+        /*
         // LESSSSSSSSSSON Konstruktor i metody
         User user1 = new User("Piotr", "Testowy", "piotrt@javademo.pl", 9, false);
         //System.out.println("User name: " + user1.firstName + " " + user1.lastName + " email: " + user1.email);
