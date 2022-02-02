@@ -3,6 +3,11 @@ package main;
 public class DemoApp {
     public static void main(String[] args) {
 
+        User user1 = new User("Piotr", "Testowy", "piotrt@javademo.pl", 9, false);
+        System.out.println("User name: " + user1.firstName + " " + user1.lastName + " email: " + user1.email);
+
+
+        /*
         // LESSSSSSSSSSON Pola obiektu
         User user1 = new User();
         user1.firstName = "Ania";
@@ -11,6 +16,7 @@ public class DemoApp {
         user1.age   = 30;
         user1.likeIceCream = true;
         System.out.println("User name: " + user1.firstName + " " + user1.lastName + " email: " + user1.email);
+        */
 
 
         /*
