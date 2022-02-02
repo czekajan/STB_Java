@@ -4,11 +4,17 @@ public class User {
 
     // 1. Pola obiektu - opisuja z czego sklada sie obiekt
 
-    String firstName;
-    String lastName;
-    String email;
-    int age;
-    Boolean likeIceCream;
+    // Modyfikatory dostepu
+    // domyslny
+    // public - dostepne wszedzie
+    // private - dostepne w danej klasie
+    // protected - dostepne w tym samym pakiecie i dziedziczenie
+
+    private String firstName;
+    private String lastName;
+    private String email;
+    private int age;
+    private Boolean likeIceCream;
 
     // 2. Konstruktor (konstruktor domysliny, i taki ktory mozemy nadpisac
     // jezeli nie utworzymy zadnego konstruktora, to java utowrzy konstruktor domyslny! czyli pusty
