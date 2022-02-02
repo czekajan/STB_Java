@@ -3,6 +3,17 @@ package main;
 public class DemoApp {
     public static void main(String[] args) {
 
+        // LESSSSSSSSSSON Pola obiektu
+        User user1 = new User();
+        user1.firstName = "Ania";
+        user1.lastName = "Wait";
+        user1.email = "anka@javademo.pl";
+        user1.age   = 30;
+        user1.likeIceCream = true;
+        System.out.println("User name: " + user1.firstName + " " + user1.lastName + " email: " + user1.email);
+
+
+        /*
         // LESSSSSSSSSSON 1
         System.out.println("Hello from java 11");
 
@@ -49,8 +60,6 @@ public class DemoApp {
 
         System.out.println(10 == 10 && 20>19);
         System.out.println(10 == 10 || 20>19);
-
+        */
     }
-
-
 }
